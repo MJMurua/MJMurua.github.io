@@ -124,6 +124,7 @@ header #menu ul a:hover {
 
 #seccion1 #texto p {
     margin-bottom: 20px;
+    text-align: left;
 }
 
 #seccion1 #texto a {
@@ -178,6 +179,7 @@ header #menu ul a:hover {
 
 #seccion2 #texto p {
     margin-bottom: 20px;
+    text-align: left;
 }
 
 #seccion2 #texto a {
@@ -188,9 +190,6 @@ header #menu ul a:hover {
     width: 90px;
 }
 
-#seccion2 {
-    color: #e62429;
-}
 
 
 
