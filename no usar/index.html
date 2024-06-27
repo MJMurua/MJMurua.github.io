@@ -1,3 +1,4 @@
+<<<<<<< HEAD:no usar/index.html
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -206,3 +207,75 @@
     </div>
   </body>
 </html>
+=======
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <title>Programación I | Parcial 2 | Maximiliano Murua</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="estilo.css"/>
+</head>
+<body>
+<header>
+    <h1>Programación I | Parcial 2 | Maximiliano Murua | Mi carrito</h1>
+</header>
+<main>
+    <div id="minicarrito">
+        <p><span>0</span> ítems agregados</p>
+        <p>$<span>0.00</span> es el total</p>
+        <p>Filtrar por <a href="#" id="filtroLaptops">Laptops</a> | <a href="#" id="filtroSmartphones">Smartphones</a> | <a href="#" id="filtroAccesorios">Accesorios</a></p>
+        <button>Ver carrito</button>
+    </div>
+    
+    
+    <h2>Productos</h2>
+    <!-- Generar el contenido del div#productos dinámicamente -->
+    <ul id="productos">
+        <!-- Contenido dinámico irá aquí -->
+    </ul>
+</main>
+<footer>
+    <ul>
+        <li>Profesor Corbalan Cristian</li>
+        <li>
+            <a href="mailto:cristian.corbalan@davinci.edu.ar?subject=P1%20-%20Consulta%20-%20DW2[M|T|N][A|B]%20-%20Apellido,%20Nombre"
+               target="_blank">cristian.corbalan@davinci.edu.ar</a>
+        </li>
+        <li>Programación 1</li>
+    </ul>
+</footer>
+
+<!-- CREAR el div#modalProducto y su contenido dinámicamente-->
+<div class="modal" id="modalProducto" style="display: none;">
+    <div>
+        <a class="cerrar" href="#">X</a>
+        <img src="producto-de-ejemplo.jpg" alt="Nombre del producto"/>
+        <h3>Producto</h3>
+        <p>Descripción</p>
+        <p>Precio: <span>$0</span></p>
+        <p>Categoría</p>
+        <button>Agregar</button>
+    </div>
+</div>
+
+<!-- CREAR el div#modalCarrito y su contenido dinámicamente -->
+<!--<div class="modal" id="modalCarrito">
+    <div>
+        <a class="cerrar" href="#">X</a>
+        <p>Items: <span>3</span> - Total: <span>$0</span></p>
+        <hr />
+        <ul>
+            <li>Nombre del producto <span>$0</span> <span>0 items</span> <a href="#">Eliminar</a></li>
+            <li>Nombre del producto <span>$0</span> <span>0 items</span> <a href="#">Eliminar</a></li>
+            <li>Nombre del producto <span>$0</span> <span>0 items</span> <a href="#">Eliminar</a></li>
+        </ul>
+        <button>Ir al checkout</button>
+        <button>Vaciar</button>
+    </div>
+</div>-->
+<script src="parcial.js"></script>
+</body>
+</html>
+>>>>>>> 120aa31e2e75ba6266538aaec929f22b96e8f7cb:index.html
